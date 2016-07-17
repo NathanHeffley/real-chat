@@ -1,4 +1,4 @@
-var socket = io.connect('http://localhost:3000');
+var socket = io.connect('https://chat.nathanheffley.com');
 var chatBox = document.getElementById('chatBox');
 var chatField = document.getElementById('chatField');
 
