@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Vue Site</title>
+  </head>
+  <body>
+    <div id="chatApp">
+      <div id="chatBox"></div>
+      <div id="chatArea">
+        <input id="chatField" type="text" v-on:keyup.enter="sendMessage">
+        <button v-on:click="sendMessage">Send</button>
+      </diV>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/vue.min.js"></script>
+    <script src="/js/chat.js"></script>
+  </body>
+</html>
